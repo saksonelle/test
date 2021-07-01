@@ -19,12 +19,12 @@ const Board = () => {
   };
 
   const preparCoord = (num) => {
-    const clicked = cells.find(el => el.id == num);
+    const clicked = cells.find((el) => el.id == num);
     if (clicked) {
       return;
     }
 
-    const checkedNum = num < 10 ? "0" + num: num;
+    const checkedNum = num < 10 ? "0" + num : num;
 
     const splitedNum = checkedNum.toString().split("");
 
@@ -45,9 +45,7 @@ const Board = () => {
     console.log("setCells", rows);
 
     for (let i = x; i < DIMENTION; i++) {
-
-      for (let j = 0; j < DIMENTION; j++) {
-      }
+      for (let j = 0; j < DIMENTION; j++) {}
     }
   };
 

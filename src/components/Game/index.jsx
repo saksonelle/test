@@ -4,7 +4,6 @@ import Board from "./Board";
 import { GameStyled } from "./styles.js";
 
 const Game = () => {
-
   return (
     <GameStyled>
       <div className="game">
